@@ -19,6 +19,8 @@ const COLORS = {
 // ─── PASTE YOUR GOOGLE APPS SCRIPT WEB APP URL HERE ───────────────────────
 const SHEETS_URL = import.meta.env.VITE_SHEETS_URL || "https://script.google.com/macros/s/AKfycbxiwA0fvKL5-wAGA_07dMTqJKJ7h8Akbav_jhDGggE_80rKzOWHpAHckOolzqy31DfR/exec";
 // ───────────────────────────────────────────────────────────────────────────
+
+const MENU_ITEMS = [
   {
     id: "chicken-piccata",
     name: "Chicken Piccata",
